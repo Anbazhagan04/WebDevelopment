@@ -145,7 +145,6 @@ h1{
 }
 
 
-
 .navigation-auto{
     position: absolute;
     display: flex;
@@ -153,6 +152,7 @@ h1{
     margin-top:-54%;
     margin-left:46%;
     justify-content:center;
+    
 }
 .navigation-auto div{
   
@@ -160,6 +160,7 @@ h1{
     padding: 5px;
     border-radius :10px;
     transition: 1s;
+    
 
 }
 .navigation-auto div:not(:last-child)
@@ -167,18 +168,7 @@ h1{
     margin-right: 45px;
 }
 
-#radio1:checked ~ .navigation-auto .auto-btn1 {
-    background-color: #fff;
-}
-#radio2:checked ~ .navigation-auto .auto-btn2 {
-    background-color: #fff;
-}
-#radio3:checked ~ .navigation-auto .auto-btn3 {
-    background-color: #fff;
-}
-#radio4:checked ~ .navigation-auto .auto-btn4 {
-    background-color: #fff;
-}
+
 
 .sidebar{
    
@@ -286,9 +276,24 @@ h1{
     right:90px;
     transition: all 0.5s ease;
 }
+.logo_small
+{
+    display:hide;
+}
 
-
-
+.sub_content {
+ 
+    background-image: url("wmen1.jpg");
+    margin-top: 70%;
+    height:1000px;
+    background-size: cover;
+    width: calc(100%-70px);
+    right:70px;
+    background-position: 60%;
+    padding: 100px 500px 0 50px ;
+    color: #865742;
+    overflow-x: hidden;
+}
 
 
 
@@ -454,6 +459,17 @@ h1{
     right:50px;
     transition: all 0.5s ease;
 }
+.sub_content {
+ 
+    
+    margin-top: 80%;
+    background-size: cover;
+    background-position:60%;
+    padding: 100px 300px 0 50px ;
+    color: #865742;
+    overflow-x: hidden;
+    font-size: 15px;
+}
 }
 
 @media (min-width: 425px) and (max-width: 768px)
@@ -541,6 +557,17 @@ h1{
       right:40px;
       transition: all 0.5s ease;
   }
+  .sub_content {
+ 
+    
+    margin-top: 80%;
+    background-size: cover;
+    background-position:70%;
+    padding: 100px 200px 0 50px ;
+    color: #865742;
+    overflow-x: hidden;
+    font-size: 14px;
+}
 }
 @media (min-width:300px) and (max-width: 425px)
 {
@@ -560,11 +587,15 @@ h1{
     .sidebar{
         width:24px;
         height:200px;
+        transition:all 0.1s ease-out;
+        
     }
     .sidebar.active
     {
        width:180px;
        height:220px;
+       z-index: 1;
+       opacity: 0.8;
     }
     .logo_content .logo i
    {
@@ -572,6 +603,15 @@ h1{
    }
    .logo_content .logo .logo_name {
     display:none;
+   }
+   .logo_small
+   {
+       display:block;
+       font-size:25px;
+       position:absolute;
+       color:white;
+       top:13px;
+       left:60px;
    }
    .sidebar #btn{
     transform: translate(85%); 
@@ -601,14 +641,14 @@ h1{
       width:calc(100% - 2px);
       right:2px;
       top:240px;
-      transition: all 0.5s ease;
+      transition: all 1s ease;
   }
   
   .home_content
   {
       width : calc(100% - 50px);
       right:50px;
-      transition: all 0.5s ease;
+      transition: all 0.1s ease-in;
   }
    h1{
       display:none;
@@ -617,6 +657,17 @@ h1{
       margin-top:3%;
       margin-left:40%;
   }
+  .sub_content {
+ 
+    
+    margin-top: 80%;
+    background-size: cover;
+    background-position:70%;
+    padding: 100px 150px 0 50px ;
+    color: #865742;
+    overflow-x: hidden;
+    font-size: 12px;
+}
   
    
 }
