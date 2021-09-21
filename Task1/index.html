@@ -34,6 +34,12 @@
                  Hey There!!!
              </div>
          </div>
+         <div class="logo_small">
+           
+             <div class="logo_name_small">
+                 Embracea
+             </div>
+         </div>
       <i class='bx bx-menu' id="btn"></i>
          
     </div>
@@ -54,7 +60,7 @@
         </li>
     </ul>
 
-   </div>
+</div>
   
    <div  class="home_content">
    
@@ -85,10 +91,10 @@
 
     <div class="navigation-auto">
 
-        <div class="auto-btn1"></div>
-        <div class="auto-btn2"></div>
-        <div class="auto-btn3"></div>
-        <div class="auto-btn4"></div>
+        <div class="auto-btn1" id="auto-btn1"></div>
+        <div class="auto-btn2" id="auto-btn2"></div>
+        <div class="auto-btn3" id="auto-btn3"></div>
+        <div class="auto-btn4" id="auto-btn4"></div>
 
     </div>
    <div class="navigation-manual">
@@ -99,6 +105,10 @@
    </div>
 
    </div>
+
+   <div class="sub_content">
+       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, dolore? Rem hic repudiandae nesciunt! Maiores, labore sit quasi dolore aperiam impedit veniam cumque sint optio qui eligendi recusandae illum error non in, quos accusantium sequi quia, mollitia ex pariatur eum odio vel repudiandae. Consequatur fugiat fugit sed obcaecati deserunt excepturi. Maxime facilis voluptate neque provident rem, ut nisi expedita, incidunt libero non dolor. Reiciendis quae suscipit iure accusamus minus nihil est qui repellendus eos mollitia labore, et maiores molestiae minima numquam voluptatum non quos voluptatibus sed laboriosam eligendi, eaque molestias. Cupiditate soluta consequatur repudiandae sequi neque omnis dolor quo similique.
+   </div>
   
     <script type="text/javascript">
      let counter =1;
@@ -106,11 +116,20 @@
 
     
          document.getElementById("radio"+counter).checked = true;
-        
+         document.getElementById("auto-btn"+counter).style.backgroundColor = "white";
+         if(counter>1)
+         {
+            document.getElementById("auto-btn"+(counter-1)).style.backgroundColor = "";
+         }
+         else
+         {
+            document.getElementById("auto-btn4").style.backgroundColor = "";
+         }
          counter++;
          
          if(counter>4)
          {
+           
              counter=1;
 
          }
