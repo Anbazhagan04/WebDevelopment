@@ -506,10 +506,10 @@ h1{
    
    }
    .sidebar #btn{
-    transform: translate(80%); 
+    display:none;
    }
    .sidebar.active #btn{
-    transform: translate(80%); 
+    display:none;
    }
    .sidebar.active ul {
        margin-top:65px;
