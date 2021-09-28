@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+     <div class="navbar">
+         <span class="title">
+            <i class="ri-leaf-fill"></i>
+             <p>SalVerd</p>
+         </span>
+         <span class="about">
+            <i class="ri-message-3-line"></i>
+             <p>About Us</p>
+         </span>
+         <span class="contact">
+            <i class="ri-phone-line"></i>
+             <p>Contact</p>
+         </span>
+         <span class="joinus">
+            <i class="ri-global-line"></i>
+             <p>Join Us</p>
+        </span>
+        <div class="awarehead">
+            Don't<br>Forsake<br>this Life Of Yours
+        </div>
+     </div>
+    </header>
+
+    <div class="container">
+        <div class="video-container">
+            <video class="video" autoplay muted loop>
+                <source src="./images/1.mp4" type="video/mp4">
+            </video> 
+            <i class="ri-arrow-down-line"></i>           
+            <span><i class="ri-lungs-line"></i><br></i> Save<br>The Hotspots</span>
+            
+        </div>
+        <div class="row">
+
+            <div class="status">
+                <ul class="Africa">
+                    <li> Eastern Afro-Montane </li>
+<li> The Guinean forests of Western Africa </li>
+<li> Horn of Africa </li>
+<li> Madagascar and the Indian Ocean Islands </li>
+<li> Maputoland, Podoland, Albany hotspot </li>
+<li> Succulent Karou </li>
+<li> East Malanesian islands </li>
+<li> South Africa's Cape floristic hotspot </li>
+<li> Coastal forests of Eastern Africa </li> 
+                 </ul>
+                 <ul class="AsiaAus">
+                    <li> Himalayan hotspot </li>
+                    <li> The Eastern Himalayas </li>
+                    <li> Japan biodiversity hotspot </li>
+                    <li> Mountains of South-West China </li>
+                    <li> New Caledonia </li>
+                    <li> New Zealand biodiversity hotspot </li>
+                    <li> Philippine biodiversity hotspot </li>
+                    <li> Western Sunda (Indonesia, Malas and Brunei) </li>
+                    <li> Wallace (Eastern Indonesia) </li>
+                    <li> The Western Ghats of India and Islands of Sri Lanka </li>
+                    <li> Polynesia and Micronesian Islands Complex including Hawaii </li>
+                    <li> South-Western Australia </li>
+                 </ul>
+                 <ul class="NotAmerica">
+                    <li> California Floristic Province </li>
+                    <li> Caribbean islands hotspot </li>
+                    <li> Modrean pine-oak wood lands of the USA and Mexico border </li>
+                    <li> The Mesoamerican forests </li>
+                 </ul>
+                 <ul class="SotAmerica">
+                    <li> Brazil's Cerrado </li>
+                    <li> Chilean winter rainfall (Valdivian) Forests </li>
+                    <li> Tumbes-Choco-Magdalena </li>
+                    <li> Tropical Andes </li>
+                    <li> Atlantic forest </li>
+                </ul>
+                <ul class="Europe">
+                    <li> Caucasus region </li>
+<li> Iran-Anatolia region </li>
+<li> The Mediterranean basin and its Eastern Coastal region </li>
+<li> Mountains of Central Asia </li>
+
+                 </ul>
+            </div>
+
+           <div class="content">
+               <div class="slider">
+                 <div class="image-con">
+                      <input name="radio-btn" type="radio" id="radio1">
+                      <input name="radio-btn" type="radio" id="radio2">
+                      <div id="img1">
+                       <img src="./images/5.jpeg" alt="">
+                       <span>
+                           BeFore<br>Us
+                       </span>
+                      </div>
+                      <div id="img2">
+                        <img src="./images/4.jpg" alt="">
+                        <span>
+                           After<br>Us
+                        </span>
+                      </div>
+
+                    </div>
+                  
+               </div>
+               
+               <div class="info">
+                Global warming has emerged as one of the most important environmental issues ever to confront humanity. This concern arises from the fact that our everyday activities may be leading to changes in the earth's atmosphere that have the potential to significantly alter the planet's heat and radiation balance.Recent report of intergovernmental panel on climate change (IPCC) stated that global warming is leading to rise in temperature by which is much more than expected earlier.
+               </div>
+               <div class="quote">
+                Global warming is actually a misnomer. It should be global extremes and global swings, because you add - as you add more energy into the atmosphere, it sloshes around. Energy doesn't simply uniformly warm up the planet. And that means droughts in one area, enormous snowstorms in another area, 100-year floods here, 100-year forest fires there.
+               <span>- Michio Kaku</span>
+               </div>
+               
+            </div>
+              
+
+            <div class="sidebar">
+                 <div class="holder">
+
+                    <div class="top">34<br>Biodiversity Hotspots</div>
+                    <div class="listhold">
+                        <div id="Africa" class="loc" onclick="see(0)">
+                            <span>Africa</span>
+                        </div>
+                        <div id="AsiaAus" class="loc" onclick="see(1)">
+                            <span>Asia & Australia</span>
+                        </div>
+                        <div id="NotAmerica" class="loc" onclick="see(2)">
+                            <span>North & Cental America</span>
+                        </div>
+                        <div id="SotAmerica" class="loc" onclick="see(3)">
+                            <span>South America</span>                            
+                        </div>
+                        <div id="Europe" class="loc" onclick="see(4)">
+                            <span>Central Asia & Europe</span>                           
+                        </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="you-cont">
+                <div class="you-vid">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/n-f8a3ihmSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+               </div>
+        </div>
+    </div>
+    <div class="auto-nav">
+        <div class="nav-bt" id="nav-bt1"></div>
+        <div class="nav-bt" id="nav-bt2"></div>
+    </div>
+
+    <script type="text/javascript">
+
+        setInterval(function(){
+
+           ///$(".ri-arrow-down-line").slideToggle();
+           $(".ri-arrow-down-line").animate({top: '100%'});
+        },1000);
+
+     let count = 1;
+     setInterval(function(){
+
+        
+        document.getElementById("radio"+count).checked = true;
+        document.getElementById("nav-bt"+count).style.backgroundColor="white";
+        
+        if(count>1)
+         {
+            document.getElementById("nav-bt1").style.backgroundColor = "";
+            document.getElementById("nav-bt"+(count-1)).style.width="20%";
+            document.getElementById("nav-bt"+count).style.width="5%";
+         }
+         else
+         {
+            document.getElementById("nav-bt2").style.backgroundColor = "";
+            document.getElementById("nav-bt"+(count+1)).style.width="20%";
+            document.getElementById("nav-bt"+count).style.width="5%";
+         }
+         
+         count++;
+         
+         if(count>2)
+         {
+           
+             count=1;
+
+         }
+     },3000);
+
+    function see(index){
+         let elems=$(".status > ul");
+         let child=":nth-child("+(index+1)+")";
+         let arr=$(".status > ul").not(child).children();
+         let folder=$(".status")[0];
+         let block=$(".status > ul"+child+"> li");
+         
+           if (folder.style.display==="none") {
+
+            folder.style.display="block";
+
+            $(".status > ul"+child)[0].style.display="flex";
+             for(let i =0;i<block.length;i++){
+                block[i].style.display="block";
+             }
+             for(let i = 0 ; i < arr.length ;i++)
+             {
+                 arr[i].style.display="none";
+             }
+              
+            $(".content").css("top","34%");
+            $(".content").css("width","90%");
+            $(".content").css("height","60%");
+            $(".info").css("width","40%");
+            $(".info").css("top","50%");
+            $(".quote").css("width","30%");
+            $(".quote").css("right","-17%");
+            $(".quote").css("top","50%");
+            $(".you-cont").css("bottom","7%");
+            $(".you-cont").css("right","8%");
+            $(".slider").css("max-width","650px")
+            $(".auto-nav").css("top","282%");
+
+            
+          } else {
+            folder.style.display="none";
+              $(".status > ul"+child)[0].style.display="none";
+
+              for(let i =0;i<block.length;i++)
+              {
+                block[i].style.display="none";
+              }
+            
+            for(let i = 0 ; i < arr.length ;i++)
+             {
+                arr[i].style.display="none";
+             }
+             $(".content").css("top","");
+
+            $(".content").css("top","");
+            $(".content").css("width","60%");
+            $(".content").css("height","70%");
+            $(".info").css("width","");
+            $(".info").css("top","40%");
+            $(".quote").css("width","");
+            $(".quote").css("right","");
+            $(".quote").css("top","70%");
+            $(".you-cont").css("bottom","10%");
+            $(".you-cont").css("right","4%");
+            $(".slider").css("max-width","700px");
+            $(".auto-nav").css("top","198%");
+          }
+            };
+
+    </script>
+ 
+</body>
+</html>
+
+
+
+
+css
+
+
+
+body
+{
+    font-family: 'Patrick Hand', cursive;
+    margin:0;
+    padding:0;
+}
+header{
+    background-image:url(./images/2.jpg);
+    height:70vh;
+    background-size: cover;
+    background-repeat:no-repeat;
+    color:white;
+    
+    padding:20px;
+    position: relative;
+    
+}
+.navbar
+{
+    width:90%;
+    position: absolute;
+    margin-left:-1%;
+    margin-top:-1%;
+    display:flex;
+    justify-content:space-around;
+    
+}
+header span {
+    position:relative;
+    padding:1%;
+    font-size: 1.3em;
+    cursor:pointer;
+}
+header span p{
+    margin: 0;
+    margin-left: 10px;
+}
+header span i {
+    position: absolute;
+    top:20%;
+    left: -15%;
+    font-size:1.3em;
+}
+header span:nth-child(1) {
+    
+    width: 10%;
+    margin-right:15%;
+    margin-left:-3%;
+    background-color:rgba(172, 252, 246, 0.3);
+    font-size: 1.9em;
+    border-radius:10px;
+    padding: 1% 1% 1% 5% ;
+    width:10%;
+}
+header span:nth-child(1) i{
+    top:15%;
+    left: 8%;
+}
+.awarehead{
+    font-family: 'Lobster Two', cursive;
+    position: absolute;
+    margin-top:10%;
+    color:white;
+    font-size:4em;
+    text-align:left;
+    justify-content:center;
+    margin-left: -45%;
+    width: 40%;
+}
+.awarehead::before{
+    content: open-quote;
+    position: absolute;
+    left: -10%;
+    top:-4%;
+    font-size:1.3em;
+}
+.awarehead::after{
+    content: close-quote;
+    position: absolute;
+    right: 1%;
+    bottom:-7%;
+    font-size:1.3em;
+}
+.container{
+    font-family: 'Caveat Brush', cursive;
+    height: 1500px;
+    width: 100%;
+    transition: all 1s ease;
+    
+    
+}
+.row{
+    position: relative;
+    background-image: url("./images/1.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1%;
+}
+.video-container{
+    
+    height: 20%;
+    margin: 2%;
+}
+.video
+{
+    height: 100%;
+    width: 100%;
+    object-fit:fill;
+    pointer-events: none;
+}
+
+.sidebar,.content
+{
+    float: left;
+    background-color: rgba(0,0,0,0.7);
+    
+}
+.content {
+
+    position: absolute;
+    margin: 6% 0 0 6%;
+    width:60%;
+    height: 70%;
+    max-height: 1000px;
+    
+}
+
+.sidebar{
+    position: absolute;
+    margin: 6% 0 0;
+    width:20%;
+    height: 30%;
+    padding: 2%;
+    right: 4%;
+    top:0;
+    
+}
+.you-cont{
+    position: absolute;
+    bottom:10%;
+    right:4%;
+    height:50%;
+    width: 28%;
+    transition: all 0s ease;
+}
+.you-vid iframe{
+  position: absolute; 
+  width: 100%;
+}
+.image-con {
+  
+  width: 300%;
+  height:100%;
+  
+  position: relative;
+  display:flex; 
+  justify-content:space-around;
+}
+.slider
+{
+    position: relative;
+    max-width:700px;
+    max-height:320px;
+    width:auto;
+    height: auto;
+    overflow: hidden;  
+    margin:5% 0% 5% 5%;
+    border-radius: 10px;
+    transition: all 0s ease;
+    
+}
+.image-con div {
+    width: 45%;
+    transition:2s;
+    margin:0px;
+    height: 10%;
+    padding-left: 0%;
+    position: relative;
+    
+}
+
+.image-con div img
+{  
+    height:10%;
+    width: 60%;
+    border-radius: 10px;
+    
+}
+.image-con div span
+{
+    position: absolute;
+    color:white;
+    left:5%;
+    background-color: rgba(0,0,0,0.7);
+    margin:1%;
+    padding: 1% 2% 1%;
+
+}
+
+.auto-nav
+{
+    position:absolute;
+    height: 5%;
+    width:10%;
+    top: 198%;
+    left: 30%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    transition: all 0s ease;
+}
+.nav-bt
+{
+    border: 2px solid white;
+    width: 20%;
+    height:20%;
+    margin:10%;
+    border-radius: 30px;
+    transition:2s;
+}
+input
+{
+    display:none;
+}
+#radio1:checked ~ #img1{
+    margin-left:0;
+
+}
+#radio2:checked ~ #img1{
+
+    margin-left:-201%;
+}
+
+.info
+{
+    position:absolute;
+    padding:  2% 10% 2%;
+    font-size:1.4em;color:#fff;
+    word-spacing: .2cm;
+    text-align: center;
+    margin-bottom: 10%;
+    top:40%;
+    transition: all 0s ease;
+}
+.quote{
+
+    position:absolute;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 6%;
+    margin-right: 20%;
+    padding: 3%;
+    font-size:1.2em;color:#fff;
+    word-spacing: .2cm;
+    border-left: 10px solid white  ;
+    border-top: 5px solid white ;
+    border-left-style:dashed;
+    font-weight:100;
+    line-height:1.2em;
+    top:70%;
+    transition: all 0s ease;
+    
+}
+.quote span
+{
+    position: absolute;
+    right: 0;
+    bottom:0 ;
+}
+.holder {
+    border: 2px solid white;
+    height:100%;
+    color:white;
+    position: relative;
+    
+}
+.top {
+   position: absolute;
+   font-size:1.8em;
+   margin: 2% 5% 2%;
+  
+}
+.listhold{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    width:100%;
+    position:absolute;
+    bottom: 5%;
+    
+}
+.loc{
+    
+    margin:6% 5% 0%;
+    padding:5% 1% 5% ;
+    text-align:center;
+    justify-content: center;
+    font-size:1.5em;
+    background:#fff;
+    color:black;
+    cursor: pointer;
+    width:88%;
+    
+}
+
+.loc span {
+    padding-top: 1%;
+    text-decoration:overline dashed;
+}
+.loc:hover{
+    background-color:rgba(171, 158, 182,0.7);
+    color:white;
+}
+.loc:hover span
+{
+    text-decoration:underline wavy;
+}
+.loc ul {
+    display:none;
+}
+.status
+{
+    position: absolute;
+    display :none;
+    margin:6% 6% 5%;
+    background-color: rgba(0,0,0,0.7);
+    color:white;
+    font-size:1.2em;
+    padding: 1%;
+    width: 55%;
+    height: 28.3%;
+    transition: all 1s ease;
+
+    
+}
+
+.status ul { 
+   
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    display :flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    transition: all 0s ease;
+    justify-content:space-evenly;
+    text-align:center;
+    padding:2%;
+}
+.status ul li
+{
+width: calc(60% - 120px);
+min-height: 20px;
+margin:0.2%;
+background-color: rgba(100%,100%,100%,0.3);
+color: white;
+display :none;
+height:15%;
+text-align:center;
+
+}
+.video-container span {
+    color: white;
+    position:absolute;
+    top:88%;
+    right:3%;
+    font-size:4em;
+    text-align: right;
+}
+.ri-arrow-down-line
+{
+    color: white;
+    position:absolute;
+    top:102%;
+    right:14%;
+    font-size:5em;
+    text-align: right;
+    transition: all 1s ease;
+}
